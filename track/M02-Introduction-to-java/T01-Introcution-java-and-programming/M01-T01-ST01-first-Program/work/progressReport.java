@@ -12,6 +12,6 @@ public class progressReport {
         System.out.println("Completed Topics: " + completedTopics);
         System.out.println("Remaining Topics: " + remaining);
         System.out.println("Weekly Learning Hours: " + weeklylearningHours);
-        System.out.println("Progress Percentagee: " + progressPercentage);
+        System.out.println("Progress Percentage: " + progressPercentage);
     }
 }
