@@ -1,5 +1,5 @@
 
-public class convertpseudocodetojava {
+public class pseudocodetojava {
 
     public static void main(String[] args) {
         int javaHoursPerDay = 2;
