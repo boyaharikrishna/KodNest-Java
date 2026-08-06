@@ -8,9 +8,9 @@ public class usingBreakNested {
                 }
                 System.out.println("i: " + i + " j: " + j);
             }
-           
+
         }
-         System.out.println();
+        System.out.println();
     }
 
 }
