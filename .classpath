@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="track/M01-understanding-java/T01-programming-languages-and-java/M01-T01-ST01-L-welcome-to-java-track/work/src"/>
+	<classpathentry excluding="T01-Introcution-java-and-programming/|T01-Introcution-java-and-programming/M02-T01-ST01-first-Program/work/|T01-Introcution-java-and-programming/M02-T01-ST01-first-Program/M02-T01-ST01-control-flow-loops/" kind="src" path="track/M02-Introduction-to-java"/>
+	<classpathentry excluding="M02-T01-ST01-first-Program/work/|M02-T01-ST01-first-Program/M02-T01-ST01-control-flow-loops/" kind="src" path="track/M02-Introduction-to-java/T01-Introcution-java-and-programming"/>
+	<classpathentry kind="src" path="track/M02-Introduction-to-java/T01-Introcution-java-and-programming/M02-T01-ST01-first-Program/M02-T01-ST01-control-flow-loops"/>
+	<classpathentry kind="src" path="track/M02-Introduction-to-java/T01-Introcution-java-and-programming/M02-T01-ST01-first-Program/work"/>
+	<classpathentry kind="src" path="track/practice"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
