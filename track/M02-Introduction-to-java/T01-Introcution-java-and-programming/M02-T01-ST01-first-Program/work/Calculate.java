@@ -1,8 +1,7 @@
 
 public class Calculate {
 
-    public static void main(String[] args) {
-        // write your code here
+    public static void main(String[] args){
         double principle = 10000.0;
         float rate = 6.5f;
         float time = 2.0f;
