@@ -8,7 +8,7 @@ public class Pgm2 {
         if(s3==s4){
             System.out.println("Ref are equal");
         }else{
-            System.out.println("Ref are no equal");
+            System.out.println("Ref are not equal");
         }
     }
 }
