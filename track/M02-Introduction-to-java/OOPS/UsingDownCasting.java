@@ -23,7 +23,6 @@ class Chil1 extends Pare {
     }
 }
 
-
 class Chil2 extends Pare {
     @Override
 
@@ -37,11 +36,23 @@ class Chil2 extends Pare {
     }
 }
 
-public class DownCasting {
+public class UsingDownCasting {
     public static void main(String[] args) {
-        Pare p = new Chil1();
+        Chil1 ch1 = new Chil1();
+        accessMethod(ch1);
+        Chil2 ch2 = new Chil2();
+        accessMethod(ch2);
+    }
+
+    public static void accessMethod(Pare p) {
         p.dis1();
         p.dis2();
-        ((Chil1) (p)).dis3();
+
+        if (p instanceof Chil1) {
+            ((Chil1) (p)).dis3();
+        } else {
+            ((Chil2) (p)).dis3();
+
+        }
     }
 }
