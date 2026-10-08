@@ -43,7 +43,6 @@ public class Overridden {
     public static void main(String[] args) {
         JavaDeveloper j = new JavaDeveloper();
         accessMesthod(j);
-
         PythonDeveloper p = new PythonDeveloper();
         accessMesthod(p);
     }
