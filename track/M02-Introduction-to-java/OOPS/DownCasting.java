@@ -12,6 +12,7 @@ class Pare {
 }
 
 class Chil1 extends Pare {
+    @Override
     void dis2() {
         System.out.println("inside chil1 dis1");
     }
@@ -23,6 +24,8 @@ class Chil1 extends Pare {
 }
 
 class Chil2 extends Pare {
+    @Override
+
     void dis2() {
         System.out.println("inside chil2 dis1");
     }
